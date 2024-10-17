@@ -1,0 +1,41 @@
+/* Elimina el margen y padding de body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e97a6;
+  padding: 20px 20px;
+  border-bottom: 1px solid #ddd;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+
+main {
+  padding-top: 60px; 
+}
+
+.login-button {
+  margin: 0px;
+  width:20%;
+}
+
+.home-container .login-button {
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  color: #333;
+}

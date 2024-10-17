@@ -1,0 +1,19 @@
+.card {
+    box-shadow: 0.5px 0.5px 3px;
+    padding: 5px;
+    border-radius: 1px;
+    margin: 0 5px;
+}
+
+.img-card {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.btn-card {
+    width: 100%;
+    color: white;
+    padding: 8px 0px;
+}

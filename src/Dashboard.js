@@ -79,12 +79,10 @@ const Dashboard = () => {
 
                 <ModalCreate titleModal={"CREATE PET"} isOpen={isModalCreateOpen} onClose={closeModal}>
                     <FormCreatePet />
-                    {/* <button onClick={closeModal}>Cerrar Modal</button> */}
                 </ModalCreate>
 
                 <ModalEdit titleModal={"EDIT PET"} isOpen={isModalEditOpen} onClose={closeModal}>
                     <h5>Modal para editar mascota</h5>
-                    {/* <button onClick={closeModal}>Cerrar Modal</button> */}
                 </ModalEdit>
 
 

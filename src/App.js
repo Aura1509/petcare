@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './Home';      // Asegúrate de que la ruta sea correcta
 import Login from './Login';    // Asegúrate de que la ruta sea correcta
 import Dashboard from './Dashboard'; // Asegúrate de que la ruta sea correcta
+import Inventory from './Inventory';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/inventory" element={<Inventory />} />
       </Routes>
     </div>
   );

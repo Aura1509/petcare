@@ -6,8 +6,8 @@ const Modal = ({ isOpen, onClose, children, titleModal }) => {
 
     return (
         <div className="modal-overlay">
-            <div className="modal-content">
-                <div className='modal-header' >
+            <div id='modal-content'>
+                <div className="modal-header" >
                     <h3>{ titleModal}</h3>
                     <button className="modal-close" onClick={onClose}>
                         X
